@@ -3,6 +3,14 @@
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=shift_jis">
     <style>
+        body {
+            font-size: 13px;
+            color: #333333;
+            background-color: #ffffff;
+            font-family: "Lucida Grande", "Lucida Sans Unicode", "Hiragino Kaku Gothic Pro", 'ヒラギノ角ゴ Pro W3', 'ＭＳ Ｐゴシック', 'Lucida Sans Unicode', Helvetica, Arial, Verdana, sans-serif;
+            -webkit-font-smoothing: antialiased;
+        }
+
         div.container {
             width: 100%;
             border: 1px solid gray;
@@ -41,17 +49,27 @@
 
         .form-group {
             border: 1px solid #ddd;
-            border-top: 0;
+
             line-height: 23px;
+        }
+
+        .form-group + .form-group {
+            border-top: 0;
         }
 
         .form-group .col-left {
             border-right: 1px solid #ddd;
+            margin-right: 5px;
         }
 
         .col-left {
             float: left;
             min-width: 150px;
+            background-color: #eee;
+        }
+
+        .col-left label {
+            margin-left: 5px;
         }
 
         .col-right {
