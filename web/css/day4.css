@@ -43,7 +43,7 @@ main {
     width: 750px;
 }
 
-div.table {
+div.form-group {
     border-collapse: collapse;
     display: table;
     width: 750px;
@@ -53,27 +53,29 @@ div.caption {
     display: table-caption;
 }
 
-.table-cell label {
+.cell label {
     display: table-header-group;
     font-weight: bold;
 }
 
-div.table-cell {
+div.cell {
     border: 1px solid #ccc;
     display: table-cell;
     padding: 3px 0 3px 5px;
 }
-
-div.table-row {
+.cell span{
+    margin: 0 5px;
+}
+div.row {
     display: table-row;
 }
 
-.table-row .table-cell:first-child, .table-footer .table-cell:first-child {
+.row .cell:first-child, .footer .cell:first-child {
     width: 150px;
     background: #ddd;
 }
 
-div.table-footer {
+div.footer {
     display: table-footer-group;
 }
 
@@ -119,4 +121,11 @@ input[type="text"], select {
 
 .width-30 {
     width: 30%;
+}
+
+.policy-content {
+    overflow-y: scroll;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #696969;
 }
