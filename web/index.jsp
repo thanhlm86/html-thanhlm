@@ -22,6 +22,8 @@
         <li><a href="/day2/my-lab2.html">My Lab 2</a></li>
         <li><a href="/day3/my-lab3.html">My Lab 3</a></li>
         <li><a href="/day4/my-lab4.html">My Lab 4</a></li>
+        <li><a href="/day4/my-lab4.html">My Lab 4</a></li>
+        <li><a href="/day6/my-lab6.html">My Lab 6</a></li>
       </ul>
     </nav>
     <main>
